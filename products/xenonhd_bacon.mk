@@ -1,3 +1,9 @@
+# Some SaberMod variables before common
+O3_OPTIMIZATIONS := true
+TARGET_SM_AND := 4.8
+TARGET_SM_KERNEL := 4.9
+TARGET_ARCH := arm
+
 PRODUCT_PROPERTY_OVERRIDES += \
     drm.service.enabled=true
 
